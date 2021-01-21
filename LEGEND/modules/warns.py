@@ -4,15 +4,15 @@ from typing import Optional
 
 import telegram
 from LEGEND import TIGERS, WOLVES, dispatcher
-from LEGEND.modules.disable import DisableAbleCommandHandler
-from LEGEND.modules.helper_funcs.chat_status import (
+from anie.modules.disable import DisableAbleCommandHandler
+from anie.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from LEGEND.modules.helper_funcs.extraction import (
+from anie.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
